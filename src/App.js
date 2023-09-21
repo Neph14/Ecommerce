@@ -4,6 +4,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Pages from "./Pages/Pages";
 import Footer from "./Components/UI/Footer";
 import Navbar from "./Components/UI/Navbar/Navbar";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
           <Footer />
         </div>
       </Router>
+      <ToastContainer position="top-center" />
     </Fragment>
   );
 }

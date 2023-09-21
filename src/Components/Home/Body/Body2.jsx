@@ -50,7 +50,7 @@ const Body2 = () => {
   };
 
   return (
-    <div className="w-11/12 h-full pt-10 lg:pt-20">
+    <div className="w-11/12 lg:w-5/6 h-full pt-10 lg:pt-20">
       <div className="flex items-center w-full gap-3 lg:pb-0">
         <div className="h-10 w-5 bg-red-600 rounded-md "></div>
         <p className="text-sm lg:text-lg font-bold  text-[#DB4444]">

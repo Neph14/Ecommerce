@@ -35,7 +35,7 @@ function Productdetailpage() {
   return (
     <Fragment>
       <div className="w-screen h-auto py-28 lg:py-44 flex flex-col gap-0 items-center justify-center bg-white max-h-min">
-        <div className="w-5/6 h-full  grid-cols-1 grid-rows-3 gap-y-1">
+        <div className="w-11/12 lg:w-5/6 h-full  grid-cols-1 grid-rows-3 gap-y-1">
           <div>
             <p className="w-full h-6 text-black">
               <a href="/" className="opacity-50 text-xs lg:text-base">
@@ -57,33 +57,33 @@ function Productdetailpage() {
                 <img
                   src={products.image}
                   alt="First"
-                  className="w-1/4 lg:w-40 h-14 lg:h-28 border bg-white object-contain object-center"
+                  className="w-1/4 lg:w-40 h-14 lg:h-28 border bg-white object-contain object-center py-1"
                 />
                 <img
                   src={products.image}
-                  alt="First"
-                  className="w-1/4 lg:w-40 h-14 lg:h-28 border bg-white object-contain object-center"
+                  alt="Second"
+                  className="w-1/4 lg:w-40 h-14 lg:h-28 border bg-white object-contain object-center py-1"
                 />
                 <img
                   src={products.image}
-                  alt="First"
-                  className="w-1/4 lg:w-40 h-14 lg:h-28 border bg-white object-contain object-center"
+                  alt="Third"
+                  className="w-1/4 lg:w-40 h-14 lg:h-28 border bg-white object-contain object-center py-1"
                 />
                 <img
                   src={products.image}
-                  alt="First"
-                  className="w-1/4 lg:w-40 h-14 lg:h-28 border bg-white object-contain object-center"
+                  alt="Fourth"
+                  className="w-1/4 lg:w-40 h-14 lg:h-28 border bg-white object-contain object-center py-1"
                 />
               </div>
             </div>
-            <div className="w-full lg:w-5/12 h-96 pt-2 lg:pt-0">
+            <div className="w-full lg:w-5/12 h-[400px]  border py-2 lg:py-5">
               <img
                 src={products.image}
                 alt="Fifth"
                 className="w-full h-full object-contain object-center"
               />
             </div>
-            <div className="w-full lg:w-5/12 h-full lg:pt-0 lg:pl-12">
+            <div className="w-full lg:w-5/12 h-full pt-4 lg:pt-0 lg:pl-12">
               <p className="font-inter font-semibold text-xl">
                 {products.title}
               </p>

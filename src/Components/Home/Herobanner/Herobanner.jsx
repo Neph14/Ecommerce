@@ -24,7 +24,7 @@ function Herobanner() {
   };
   return (
     <Fragment>
-      <div className="mt-24 w-11/12 h-48 lg:h-60 flex justify-between items-center mx-auto">
+      <div className="mt-24 w-11/12 lg:w-5/6 h-48 lg:h-60 flex justify-between items-center mx-auto">
         <Swiper
           breakpoints={sliderSettings}
           onBeforeInit={(swiper) => {

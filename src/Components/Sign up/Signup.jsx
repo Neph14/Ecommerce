@@ -35,14 +35,13 @@ function Signup() {
   };
 
   return (
-    <div className="mt-32 lg:-ml-[99px] h-auto w-screen">
+    <div className="mt-24 lg:-ml-[99px] h-screen lg:h-auto w-screen bg-white lg:bg-transparent">
       <div className="bg-white p-8 ">
         <div className="flex items-center">
-          <div className="hidden lg:block ">
+          <div className="hidden lg:block">
             <img src={Image} alt="Side Image" />
           </div>
-
-          <div className="my-auto mx-auto  w-72">
+          <div className="my-auto mx-auto w-72">
             <div className="ml-2 ">
               <h1 className="text-3xl font-medium font-inter">
                 Create an account

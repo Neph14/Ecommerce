@@ -14,7 +14,7 @@ function Footer() {
     <Fragment>
       <div className="w-screen h-full bg-black text-neutral-100 bottom-0 left-0 right-0 grid gap-12 lg:gap-20 mt-20">
         <div className="w-full h-full flex justify-center items-start lg:items-center pt-5 lg:pt-0">
-          <div className="w-11/12 h-4/6 grid grid-cols-2 gap-y-6 lg:flex">
+          <div className="w-11/12 lg:w-5/6 h-4/6 grid grid-cols-2 gap-y-6 lg:flex">
             <div className="w-1/2 lg:w-1/5 h-full grid place-content-start place-items-start">
               <div className="font-bold text-xl lg:text-2xl cursor-pointer flex items-center font-inter pb-4 lg:pb-6">
                 Exclusive

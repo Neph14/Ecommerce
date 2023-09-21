@@ -48,7 +48,7 @@ const CartProduct = (props) => {
                     id="quantity"
                     min="1"
                     max="100"
-                    className="border border-gray-500 rounded-md px-2 w-11/12 lg:w-1/5 p-2"
+                    className="border border-gray-500 rounded-md px-2 w-11/12 lg:w-5/6 lg:w-1/5 p-2"
                   />
                 </div>
               </div>

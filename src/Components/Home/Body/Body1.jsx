@@ -41,7 +41,7 @@ const Body1 = () => {
   console.log(GlobalState);
 
   return (
-    <div className="pt-10 lg:pt-20 w-11/12 h-full">
+    <div className="pt-10 lg:pt-20 w-11/12 lg:w-5/6 h-full">
       <div className="flex items-center w-full gap-3">
         <div className="h-10 w-5 bg-red-600 rounded-md "></div>
         <p className=" text-sm lg:text-lg font-bold text-red-600 "> Today's</p>
@@ -229,7 +229,7 @@ const Body1 = () => {
                         </button>
                       </div>
                     </div>
-                    <div className="w-full h-40 lg:h-44 bg-white grid place-content-between place-items-start p-2">
+                    <div className="w-full h-40 lg:h-44 bg-neutral-100 grid place-content-between place-items-start p-2">
                       <div className="lg:font-medium text-sm lg:text-base mb-2">
                         {product.title}
                       </div>
